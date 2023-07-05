@@ -27,7 +27,7 @@ fetch(url, options)
   .then(res => res.json())
   .then(moviesData => {
     // console.log(moviesData)
-    res.json({movies : moviesData})
+    res.json({movies : moviesData.results})
   })
   .catch(err => console.error('error:' + err));
 
