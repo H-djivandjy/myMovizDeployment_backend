@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const fetch = require('node-fetch')
 
-// const APIKEY = 'ff6de893411d999b381fb4226b617260'
+// APIKEY = '' // dans .env but not needed in this case
 
 router.get('/',(req, res)=>{
     // fetch(`https://api.themoviedb.org/3/discover/movie/157336?api_key=${APIKEY}`)
